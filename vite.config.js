@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/zu-project/', // <-- IMPORTANT for GitHub Pages
   plugins: [
     tailwindcss(),
     react()
